@@ -14,11 +14,11 @@ function Get-InstallArgs {
 $packageArgs = @{
   packageName    = "$Env:ChocolateyPackageName"
   fileType       = 'exe'
-  url            = 'https://updates.signal.org/desktop/signal-desktop-beta-win-1.40.1-beta.1.exe'
+  url            = 'https://updates.signal.org/desktop/signal-desktop-beta-win-5.0.0-beta.0.exe'
 
   softwareName   = 'Signal Beta Desktop'
 
-  checksum       = 'bd867ffb7a2447eb986738d2b88ded377ab3044e5ea86dfa7e2503e250469caeaa343393b8055422b7791254f9973ede6191a6d556141067eec3feb99686ddba'
+  checksum       = '0e22d1c2ae80e2032b9472ace7a001bac3530105b240c6d081cbfe8e2eb72df396445772a459010759c909a7fb2a367c58255e5598746ecbedd8409e9992d31a'
   checksumType   = 'sha512'
 
   silentArgs     = '{0} /log="{1}\install.log"' -f (Get-InstallArgs), (Get-PackageCacheLocation)
