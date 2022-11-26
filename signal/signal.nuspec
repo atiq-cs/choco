@@ -4,7 +4,7 @@
   <metadata>
     <id>signal-beta</id>
     <title>Signal Beta Desktop</title>
-    <version>5.0.0.0</version>
+    <version>6.0.0.0</version>
     <authors>Signal</authors>
     <owners>Atiq Rahman</owners>
     <projectUrl>https://www.signal.org</projectUrl>
@@ -38,11 +38,11 @@ $ & 'signal beta.exe' --use-tray-icon --start-in-tray
 ```
 ]]></description>
     <tags>instant-messaging privacy security encryption chat cross-platform foss electron</tags>
-    <copyright>Copyright © 2013–2021 Signal, a 501c3 nonprofit</copyright>
+    <copyright>Copyright © 2013–2022 Signal, a 501c3 nonprofit</copyright>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
-    <releaseNotes>https://github.com/signalapp/Signal-Desktop/releases/tag/v5.0.0-beta.0</releaseNotes>
+    <releaseNotes>https://github.com/signalapp/Signal-Desktop/releases/tag/v6.0.0-beta.2</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
